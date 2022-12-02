@@ -1,6 +1,6 @@
 {
   "name": "4p22-final-project-adel-usmanov",
-  "homepage": "https://github.com/usmanow/4p22-final-project-adel-usmanov",
+  "homepage": "https://usmanow.github.io/4p22-final-project-adel-usmanov/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
