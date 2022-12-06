@@ -8,7 +8,7 @@ export const Header = () => {
         <>
             <header className = "header">
                 <img className = "header-logo" src={logo} alt="logo" />
-                <h1>Сlothes&Acessories</h1>
+                <h1>Сlothes&Aсcessories</h1>
                 <nav className = "header-title">
                     <div className = "header-title__main">
                         MAIN
