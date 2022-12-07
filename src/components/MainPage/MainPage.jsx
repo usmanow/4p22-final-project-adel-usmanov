@@ -4,7 +4,7 @@ import Products from '../Products/Products';
 
 export const MainPage = () => {
     return (
-        <>
+    <>
         <Header />
         <Products />
       </>

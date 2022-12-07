@@ -1,12 +1,19 @@
 .header {
     display: flex;
-    min-width: 1400px;
+    width: 100vw;
+    padding: 0 40px;
+    justify-content: space-between;
     height: 100px;
     box-shadow: 0 3px 3px #0082c6;
     align-items: center;
     background: #e7e4e4;
     position: fixed;
     z-index: 1;
+}
+
+.header-heading {
+    display: flex;
+    align-items: center;
 }
 
 h1 {
@@ -20,12 +27,11 @@ h1 {
 .header-logo {
     width: 110px;
     height: 70px;
-    margin-left: 40px;
+
 }
 
 .header-title {
     display: flex;
-    padding: 0 0 0 400px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 25px;

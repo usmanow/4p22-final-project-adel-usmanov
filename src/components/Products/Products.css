@@ -1,8 +1,11 @@
 .search {
     display: flex;
+    padding-top: 80px;
+    padding-bottom: 20px;
     justify-content: center;
     position: sticky;
-    top: 140px;
+    top: 50px;
+    background: white;
 }
 
 .products__search {
@@ -46,7 +49,7 @@
 }
 
 .products__container {
-    margin-top: 150px;
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
