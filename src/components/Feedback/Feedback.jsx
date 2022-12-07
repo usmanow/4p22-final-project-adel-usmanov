@@ -95,13 +95,14 @@ export const Feedback = () => {
                 <div className="support-title">
                     Обратная связь
                 </div>
-                <input className="support-username" onChange={nameOnChange} value={userName} placeholder='Введите имя'/>
-                {userNameError && <p>{userNameError}</p>}
-                <input className="support-surname" onChange={surnameOnChange} value={userSurname} placeholder='Введите фамилию'/>
-                {userSurnameError && <p>{userSurnameError}</p>}
-                <input className="support-email" onChange={emailOnChange} value={userEmail} placeholder='Введите email'/>
-                <textarea className="support-textarea" onChange={textAreaOnChange} value={textArea} placeholder='Опишите проблему'/>
-                {textAreaError && <p>{textAreaError}</p>}
+                <input className="support-username" onChange={nameOnChange} value={userName} placeholder="Введите имя"/>
+                {userNameError && <p className="support-username__error">{userNameError}</p>}
+                <input className="support-surname" onChange={surnameOnChange} value={userSurname} placeholder="Введите фамилию"/>
+                {userSurnameError && <p className="support-usersurname__error">{userSurnameError}</p>}
+                <input className="support-email" onChange={emailOnChange} value={userEmail} placeholder="Введите email"/>
+                {userEmailError && <p className="support-useremail__error">{userEmailError}</p>}
+                <textarea className="support-textarea" onChange={textAreaOnChange} value={textArea} placeholder="Опишите проблему"/>
+                {textAreaError && <p classname="support-textarea__error">{textAreaError}</p>}
                 <button className="support-submit" onClick={onSubmit}>Отправить</button>
             </div>
         </>
