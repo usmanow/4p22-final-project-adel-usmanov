@@ -90,7 +90,7 @@ export const Feedback = () => {
     }
     return (
         <>
-<Header />
+            <Header />
             <div className="support">
                 <div className="support-title">
                     Обратная связь

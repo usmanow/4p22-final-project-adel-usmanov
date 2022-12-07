@@ -1,0 +1,58 @@
+.back-link {
+    padding: 120px 0 0 30px;
+}
+
+.card-opening {
+    position: relative;
+    top: 30px;
+    left: 0;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid #e7e4e4;
+    border-radius: 15px;
+}
+
+.card-opening__title {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.card-opening__image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.card-opening img {
+    width: 200px;
+    height: 200px;
+}
+
+.card-opening__price {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.card-opening__button {
+    position: absolute;
+    top: 310px;
+    left: 352px;
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    background: #e7e4e4;
+    border: none;
+}
