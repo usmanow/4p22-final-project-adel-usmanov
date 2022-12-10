@@ -45,9 +45,6 @@
     text-decoration: none;
     padding-bottom: 3px;
     border-bottom: 1px solid black;
-}
-
-.card__opening a:visited {
     color: black;
 }
 
