@@ -49,7 +49,7 @@ export const Products = () => {
         </div>
         <div className="products__container">
             {filteredData?.map((dataItem, index) => (
-                <Card withAction={true} datadata={dataItem} key={index} /> 
+                <Card withAction={true} data={dataItem} key={index} /> 
             ))}
         </div>
     </>)

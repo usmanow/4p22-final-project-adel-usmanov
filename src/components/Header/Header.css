@@ -51,11 +51,19 @@ h1 {
     height: 25px;
 }
 
-.header-title a {
+.header-title__main a {
+    text-decoration: none;
+}
+
+.header-title__feedback a {
     text-decoration: none;
 }
 
 
-.header-title a:visited {
+.header-title__main a:visited {
     color:black;
+}
+
+.header-title__feedback a:visited {
+    color: black;
 }
