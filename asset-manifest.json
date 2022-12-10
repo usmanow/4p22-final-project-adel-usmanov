@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-adel-usmanov/static/css/main.d2d34ffa.css",
-    "main.js": "/4p22-final-project-adel-usmanov/static/js/main.353a3942.js",
+    "main.css": "/4p22-final-project-adel-usmanov/static/css/main.19eb982e.css",
+    "main.js": "/4p22-final-project-adel-usmanov/static/js/main.c41fb09b.js",
     "static/media/logo.png": "/4p22-final-project-adel-usmanov/static/media/logo.e1759d780e246b1887e8.png",
     "index.html": "/4p22-final-project-adel-usmanov/index.html",
-    "main.d2d34ffa.css.map": "/4p22-final-project-adel-usmanov/static/css/main.d2d34ffa.css.map",
-    "main.353a3942.js.map": "/4p22-final-project-adel-usmanov/static/js/main.353a3942.js.map"
+    "main.19eb982e.css.map": "/4p22-final-project-adel-usmanov/static/css/main.19eb982e.css.map",
+    "main.c41fb09b.js.map": "/4p22-final-project-adel-usmanov/static/js/main.c41fb09b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2d34ffa.css",
-    "static/js/main.353a3942.js"
+    "static/css/main.19eb982e.css",
+    "static/js/main.c41fb09b.js"
   ]
 }
