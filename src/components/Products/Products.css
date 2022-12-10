@@ -5,6 +5,7 @@
     justify-content: center;
     position: sticky;
     top: 50px;
+    left: 0;
     background: white;
 }
 
@@ -31,7 +32,6 @@
 }
 
 .products__filter {
-    margin-left: 20px;
     font-size: 15px;
     width: 150px;
     height: 35px;
