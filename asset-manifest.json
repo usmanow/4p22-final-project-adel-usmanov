@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/4p22-final-project-adel-usmanov/static/css/main.863bf97e.css",
+    "main.css": "/4p22-final-project-adel-usmanov/static/css/main.77f7c229.css",
     "main.js": "/4p22-final-project-adel-usmanov/static/js/main.7b4fcd24.js",
     "static/media/logo.png": "/4p22-final-project-adel-usmanov/static/media/logo.e1759d780e246b1887e8.png",
     "index.html": "/4p22-final-project-adel-usmanov/index.html",
-    "main.863bf97e.css.map": "/4p22-final-project-adel-usmanov/static/css/main.863bf97e.css.map",
+    "main.77f7c229.css.map": "/4p22-final-project-adel-usmanov/static/css/main.77f7c229.css.map",
     "main.7b4fcd24.js.map": "/4p22-final-project-adel-usmanov/static/js/main.7b4fcd24.js.map"
   },
   "entrypoints": [
-    "static/css/main.863bf97e.css",
+    "static/css/main.77f7c229.css",
     "static/js/main.7b4fcd24.js"
   ]
 }
