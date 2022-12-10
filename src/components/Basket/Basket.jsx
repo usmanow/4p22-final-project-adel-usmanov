@@ -10,11 +10,13 @@ const myBusket = JSON.parse(localStorage.getItem('basket'))
         <>
             <Header />
             <div className="basket">
-                <div className="basket__products">Мои товары</div>
-                {myBusket?.map((item, index)=> (
-                <Card withAction={false} data={item} key={index} />
-                )
-                )}
+                <div className="basket__title">Мои товары</div>
+                <div className="basket__products">
+                    {myBusket?.map((item, index)=> (
+                    <Card withAction={false} data={item} key={index} />
+                    )
+                    )}
+                </div>
             </div>
         </>
     )
