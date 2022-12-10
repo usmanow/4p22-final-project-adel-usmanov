@@ -50,3 +50,12 @@ h1 {
     width: 25px;
     height: 25px;
 }
+
+.header-title a {
+    text-decoration: none;
+}
+
+
+.header-title a:visited {
+    color:black;
+}

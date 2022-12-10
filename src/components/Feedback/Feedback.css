@@ -78,7 +78,7 @@
 
 .support-usersurname__error {
     position: absolute;
-    top: 128px;
+    top: 115px;
     left: 24px;
     font-size: 17px;
     color: red;
@@ -94,7 +94,7 @@
 
 .support-textarea__error {
     position: absolute;
-    top: 358px;
+    top: 244px;
     left: 24px;
     color: red;
 }

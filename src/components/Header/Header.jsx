@@ -20,7 +20,7 @@ export const Header = () => {
                         <Link to='/feedback/'>FEEDBACK</Link>
                     </div>
                     <div className="header-title__basket">
-                        <img src={basket} alt="basket" />
+                        <Link to='/Basket'><img src={basket} alt="basket" /></Link>
                     </div>
                 </nav>
             </header>

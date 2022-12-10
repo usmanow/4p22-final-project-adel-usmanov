@@ -11,7 +11,7 @@ export const Product = () => {
     React.useEffect(()=> {
         axios.get(`https://fakestoreapi.com/products/${productId}`).then((res)=>setDetailData(res.data))
     }, [productId])
-    const product = detailData?.title
+
     const onButtonClick = () => {
     const myBasket = localStorage.getItem('basket');
     if (!myBasket) {

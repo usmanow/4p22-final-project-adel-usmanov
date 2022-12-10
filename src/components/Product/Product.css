@@ -1,5 +1,20 @@
 .back-link {
     padding: 120px 0 0 30px;
+    font-size: 17px;
+}
+
+.back-link a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom: 1px solid black;
+}
+
+.back-link a:visited {
+    color: black;
+}
+
+.back-link a:hover {
+    border-bottom: 1px solid rgba(0,0,0,0);
 }
 
 .card-opening {
@@ -17,7 +32,6 @@
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    padding-left: 10px;
     padding-bottom: 20px;
     font-size: 20px;
 }
@@ -36,7 +50,6 @@
 .card-opening__price {
     display: flex;
     justify-content: center;
-    padding-left: 10px;
     font-size: 25px;
 }
 
@@ -47,12 +60,18 @@
 
 .card-opening__button {
     position: absolute;
-    top: 310px;
+    top: 330px;
     left: 352px;
-    margin-top: 20px;
     width: 100px;
     height: 35px;
     font-size: 18px;
     background: #e7e4e4;
     border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-opening__button:hover {
+    background: #1d49aa;
+    color: white;
 }

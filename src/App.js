@@ -3,7 +3,7 @@ import './App.css';
 import {MainPage} from './components/MainPage/MainPage';
 import Feedback from './components/Feedback/Feedback';
 import Product from './components/Product/Product';
-import  Busket  from './components/Busket/Busket';
+import  Basket  from './components/Basket/Basket';
 import {
   BrowserRouter, Route, Switch
 } from "react-router-dom";
@@ -19,8 +19,8 @@ export const App = () => {
     <Route path='/product/:productId'>
       <Product />
     </Route>
-    <Route path='/busket'>
-      <Busket />
+    <Route path='/basket'>
+      <Basket />
     </Route>
     <Route path='/' exact>
       <MainPage />

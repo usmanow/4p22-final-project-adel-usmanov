@@ -1,0 +1,10 @@
+.basket {
+    padding-top: 130px;
+}
+
+.basket__products {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}

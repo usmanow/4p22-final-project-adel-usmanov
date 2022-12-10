@@ -7,7 +7,7 @@ export const MainPage = () => {
     <>
         <Header />
         <Products />
-      </>
+    </>
     )
 }
 

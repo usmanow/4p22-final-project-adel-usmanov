@@ -4,13 +4,13 @@ import './Feedback.css';
 
 export const Feedback = () => {
 
-    const [userName, setUserName] = React.useState();
-    const [userSurname, setUserSurname] = React.useState();
+    const [userName, setUserName] = React.useState('');
+    const [userSurname, setUserSurname] = React.useState('');
     const [userNameError, setUserNameError] = React.useState();
     const [userSurnameError, setUserSurnameError] = React.useState();
-    const [userEmail, setUserEmail] = React.useState();
+    const [userEmail, setUserEmail] = React.useState('');
     const [userEmailError, setUserEmailError] = React.useState();
-    const [textArea, setTextArea] = React.useState();
+    const [textArea, setTextArea] = React.useState('');
     const [textAreaError, setTextAreaError] = React.useState();
 
     const nameOnChange = (e) => {
@@ -63,7 +63,8 @@ export const Feedback = () => {
             return false
         }
         if (!validateEmail()) {
-            userEmailError('Email введён некорректно');
+            setUserEmailError('Email введён некорректно');
+            return false;
         }
         return true;
     }
@@ -88,6 +89,7 @@ export const Feedback = () => {
             })
         }
     }
+
     return (
         <>
             <Header />
@@ -96,16 +98,17 @@ export const Feedback = () => {
                     Обратная связь
                 </div>
                 <input className="support-username" onChange={nameOnChange} value={userName} placeholder="Введите имя"/>
-                {userNameError && <p className="support-username__error">{userNameError}</p>}
+                {!!userNameError && <p className="support-username__error">{userNameError}</p>}
                 <input className="support-surname" onChange={surnameOnChange} value={userSurname} placeholder="Введите фамилию"/>
-                {userSurnameError && <p className="support-usersurname__error">{userSurnameError}</p>}
+                {!!userSurnameError && <p className="support-usersurname__error">{userSurnameError}</p>}
                 <input className="support-email" onChange={emailOnChange} value={userEmail} placeholder="Введите email"/>
-                {userEmailError && <p className="support-useremail__error">{userEmailError}</p>}
+                {!!userEmailError && <p className="support-useremail__error">{userEmailError}</p>}
                 <textarea className="support-textarea" onChange={textAreaOnChange} value={textArea} placeholder="Опишите проблему"/>
-                {textAreaError && <p classname="support-textarea__error">{textAreaError}</p>}
+                {!!textAreaError && <p className="support-textarea__error">{textAreaError}</p>}
                 <button className="support-submit" onClick={onSubmit}>Отправить</button>
             </div>
         </>
     )
 }
-    export default Feedback;
+    
+export default Feedback;

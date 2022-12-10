@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import './Card.css';
-export const Card = ({data}) => {
+export const Card = ({data, withAction}) => {
 
     return (
         <div className="card">
@@ -9,7 +9,7 @@ export const Card = ({data}) => {
             <img src={data.image} alt="product" />
             <p className="card__description">{data.description}</p>
             <p className="card__price">{data.price} $</p>
-            <p className="card__opening"><Link to={`/product/${data.id}`}>Подробнее</Link></p>
+            {withAction && (<p className="card__opening"><Link to={`/product/${data.id}`}>Подробнее</Link></p>)}
         </div>
     )
 }
