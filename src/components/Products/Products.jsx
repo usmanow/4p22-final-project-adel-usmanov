@@ -37,7 +37,7 @@ export const Products = () => {
 
     return (
     <>
-        <div className = "search">
+        <div className="search">
             <input className="products__search" placeholder = "Поиск" value={inputValue} onChange={onInputChange} />
             <select className="products__filter" value={selectValue} onChange={onSelectChange}>
                 <option value="all">Все</option>

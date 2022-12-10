@@ -13,7 +13,7 @@ export const Product = () => {
     }, [productId])
 
     const onButtonClick = () => {
-    const myBasket = localStorage.getItem('basket');
+    const myBasket = JSON.parse(localStorage.getItem('basket'));
     if (!myBasket) {
         localStorage.setItem(
            'basket',
@@ -25,7 +25,7 @@ export const Product = () => {
         localStorage.setItem(
             'basket',
              JSON.stringify([ 
-             myBasket, detailData])
+             ...myBasket, detailData])
          );
     }
 }   
